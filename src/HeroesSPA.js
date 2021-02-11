@@ -1,10 +1,7 @@
 import React from "react";
+import { AppRouter } from "./routers/AppRouter";
 
 export const HeroesSPA = () => {
-  return (
-    <>
-      <h1>Heroes</h1>
-    </>
-  );
+  return <AppRouter />;
 };
 export default HeroesSPA;
