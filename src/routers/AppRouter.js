@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HeroScreen } from "../components/heros/HeroScreen";
 import { LoginScreen } from "../components/login/LoginScreen";
-import { Navbar } from "../components/ui/Navbar";
 import { DashboardRoutes } from "./DashboardRoutes";
 
 export const AppRouter = () => {
