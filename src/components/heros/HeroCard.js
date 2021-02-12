@@ -9,22 +9,22 @@ export const HeroCard = ({
   characters,
 }) => {
   return (
-    <div className="card ms-2" style={{ maxWidth: 540 }}>
-      <div className="row no-gutters">
-        <div className="col-md-4">
+    <div className="card h-100" style={{ maxWidth: 540 }}>
+      <div className="row g-2">
+        <div className="col-md-6">
           <img
             src={`./assets/heroes/${id}.jpg`}
-            className="card-img"
+            className="card-img animate__animated animate__pulse"
             alt={superhero}
           />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-6">
           <div className="card-body">
             <h5 className="card-title"> {superhero} </h5>
             <p className="card-text"> {alter_ego} </p>
 
             {alter_ego !== characters && (
-              <p className="card-text"> {characters} </p>
+              <p className="card-text text-truncate"> {characters} </p>
             )}
 
             <p className="card-text">
