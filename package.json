@@ -2,7 +2,7 @@
   "name": "heroes-spa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/marvel",
+  "homepage": "http://mariaalejandrabm0703.github.io/marvel",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
